@@ -1,7 +1,7 @@
 # VCSync
 
-VCSync is a simple and lightweight version control system like Git. 
+VCSync is a lightweight and robust version control system inspired by Git. It offers a seamless experience for managing your project's source code, providing familiar and essential Git features such as init, add, commit, rebase, and stash.
 
-We'll implement all the Git commands like add, commit, push, pull, fetch, stash, rebase and a lot more! It will be a full-fledged CLI library just like Git that a person can use!
+With VCSync, you can effortlessly track changes to your codebase, create branches, merge changes, and collaborate effectively with other developers. The project aims to replicate the core functionalities of Git while maintaining simplicity and ease of use.
 
-It will be implemented using Python, that's simple, however I paln to implement some of the algorithms in C++ as well.
+*Just a thing:* While testing I found that collision was observed because of the use of SHA-1. I've used SHA-1 for hashing but please note that Git no more uses SHA-1 and has switched to its hardened variant. 
